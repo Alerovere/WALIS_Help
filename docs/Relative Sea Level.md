@@ -11,7 +11,7 @@
 **Is this a marine/terrestrial limiting record?** - Indicate if the record inserted is a marine or terrestrial limiting, or a sea level indicator. The following fields will update accordingly. For a definition of marine/terrestrial limiting in MIS 5e, see Rovere et al., 2016[^1]. See *Figure 1* for an example</br>
 **Type of RSL Indicator** - Sea level indicator that was reported at the site. New indicators can be added from to the "Type of RSL indicator" table.</br></br>
 
-<center><img src="/WALIS_Help/img/Terr_mar_limiting.jpg"  width="800" height="200"></center>
+<center><img src="/img/Terr_mar_limiting.jpg"  width="800" height="200"></center>
 *Figure 1. Graphical representation of Marine and Terrestrial limitind vs Sea Level Indicators, from Rovere et al., 2016[^1].*
 
 ##Elevation and Paleo RSL
