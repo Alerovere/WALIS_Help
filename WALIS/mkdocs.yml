@@ -1,8 +1,0 @@
-site_name: WALIS
-nav:
-    - Home: index.md
-    - Relative Sea Level: Relative Sea Level.md
-    - About: about.md
-markdown_extensions:
-  - footnotes
-theme: readthedocs 
