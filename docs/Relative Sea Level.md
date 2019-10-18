@@ -11,7 +11,7 @@
 **Is this a marine/terrestrial limiting record?** - Indicate if the record inserted is a marine or terrestrial limiting, or a sea level indicator. The following fields will update accordingly. For a definition of marine/terrestrial limiting in MIS 5e, see Rovere et al., 2016[^1]. See *Figure 1* for an example</br>
 **Type of RSL Indicator** - Sea level indicator that was reported at the site. New indicators can be added from to the "Type of RSL indicator" table.</br></br>
 
-<center><img src="https://github.com/Alerovere/WALIS_Help/blob/master/docs/img/Terr_mar_limiting.JPG"  width="800" height="200"></center>
+<center><img src="https://raw.githubusercontent.com/Alerovere/WALIS_Help/master/docs/img/Terr_mar_limiting.JPG" width="800" height="200"></center>
 *Figure 1. Graphical representation of Marine and Terrestrial limitind vs Sea Level Indicators, from Rovere et al., 2016[^1].*
 
 ##Elevation and Paleo RSL
@@ -29,7 +29,7 @@
 **RSL indicator elevation (m)** - Elevation of RSL indicator (single-point case).</br>
 **RSL indicator elevation error (m)** - Elevation error associated with RSL indicator (single-point case).</br></br>
 
-<center><img src="/img/Limits.jpg"  width="350" height="200"></center>
+<center><img src="https://github.com/Alerovere/WALIS_Help/blob/master/docs/img/Limits.jpg?raw=true"  width="350" height="200"></center>
 *Figure 2. Graphical representation of single point (default) vs two-point elevation.*
 
 **Notes on elevation** - Insert comments on how elevation data has been obtained / treated.</br>
