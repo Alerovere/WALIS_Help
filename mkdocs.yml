@@ -4,7 +4,13 @@ nav:
     - Relative Sea Level: Relative Sea Level.md
     - Type of RSL indicator: Type of RSL indicator.md
     - Geographic positioning: Geographic positioning.md
+    - Elevation measurement: Elevation measurement.md
+    - Sea Level Datum: Sea Level Datum.md
+    - Common fields for dating techniques: dating.md
+    - U-Series: U-Series.md
+    - AAR: AAR.md
     - About: about.md
+    - How to cite: citation.md
 markdown_extensions:
   - footnotes
 theme: readthedocs 
