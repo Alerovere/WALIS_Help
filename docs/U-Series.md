@@ -57,8 +57,8 @@
 ***Insert the following values, as reported in the original study***</br>
 **[<sup>230</sup>Th/<sup>234</sup>U]<sub>ACT</sub>**</br>
 **[<sup>230</sup>Th/<sup>234</sup>U]<sub>ACT</sub> uncertainty (±2σ)**</br>
-**[<sup>230</sup>Th/<sup>238</sup>U]<sub>ACT<sub>**</br>
-**[<sup>230</sup>Th/<sup>238</sup>U]<sub>ACT<sub> uncertainty (±2σ)**</br>
+**[<sup>230</sup>Th/<sup>238</sup>U]<sub>ACT</sub>**</br>
+**[<sup>230</sup>Th/<sup>238</sup>U]<sub>ACT</sub> uncertainty (±2σ)**</br>
 **[<sup>234</sup>Th/<sup>238</sup>U]<sub>ACT</sub>**</br>
 **[<sup>234</sup>Th/<sup>238</sup>U]<sub>ACT</sub> uncertainty (±2σ)**</br>
 **Reported age (ka)** *(Only for corals and speleothems)* </br>

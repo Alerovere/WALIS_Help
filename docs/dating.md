@@ -1,4 +1,4 @@
-*This section was designed in collaboration with A. Dutton and P. Chutcharavan, and is common to U-Series, AAR, and Luminescence dating forms*
+*This section was designed by A. Dutton and P. Chutcharavan, and is common to U-Series, AAR, and Luminescence dating forms*
 
 ##Analysis metadata
 **Material type** (Only U-Series) - Select the dated material. Fields in the database will change accordingly.</br>
@@ -18,8 +18,8 @@
 **Are Lat/Long estimated?** - Select 'Yes' if Lat and Long were not provided in the original study, but estimated a posteriori through maps or other means. </br>
 **Original elevation datum used** - Select the sea level datum to which the elevations are referred. New sea level datums can be added from the [Sea Level Datum](Sea Level Datum.md) table.</br>
 **Elevation measurement method** - Method employed to measure elevations. New techniques can be added from the [Elevation Measurement](Elevation measurement.md) table.</br>
-**Reported elevation (m)** - Elevation of the sample as reported in the original publication.</br>
-**Reported elevation uncertainty (m)** - Elevation uncertainty of the sample as reported in the original publication.</br>
-**Elevation above MSL (m)** - Elevation of the sample in meters above mean sea level. If not provided in the original publication, calculate it from the reported elevation and the datum used, indicating how the elevation above MSL has been derived.</br>
-**Elevation uncertainty used (m)** - Final elevation uncertainty used, including measurement and datum uncertainty.</br>
+**Reported elevation (m)** - Elevation of the sample as reported in the original publication. Default is N/A.</br>
+**Reported elevation uncertainty (m)** - Elevation uncertainty of the sample as reported in the original publication. Default is N/A.</br>
+**Elevation above MSL (m)** - Elevation of the sample in meters above mean sea level. If not provided in the original publication, calculate it from the reported elevation and the datum used, indicating how the elevation above MSL has been derived. Default is N/A.</br>
+**Elevation uncertainty used (m)** - Final elevation uncertainty used, including measurement and datum uncertainty. Default is N/A.</br>
 **Elevation comments** - Insert here how MSL elevations have been derived from the original datum, including uncertainties.</br>
