@@ -14,7 +14,7 @@
 **ESR spectrometre type** - Designate the ESR spectrometre type (e.g. Bruker X-band ELEXSYS E500). Provide information on the variable temperature unit (VTU) and resonator.</br>
 **Measurement temperature (K)** - Designate at which temperature the ESR intensity was measured: Room temperature or low temperature.</br>
 **Acquistion parameters** - Designate the experimental conditions: Frequency, microwave power, points resolution, sweep width, modulation frequency, modulation amplitude, conversion time, time constant.</br>
-**Paramagnetic centre** *(Only for Quartz as material)*- Designate which centre was targeted, e.g. Al centre in quartz.</br>
+**ESR signal** - Please provide information on the g-factor and/or paramagnetic center.</br>
 **Number of scans** - Designate which centre was targeted, e.g. Al centre in quartz.</br>
 **Number of repeated measurements** - Designate which centre was targeted, e.g. Al centre in quartz.</br>
 **Number of rotations in the cavity** - Designate how many rotations in the cavity were used.</br>
@@ -36,8 +36,8 @@
 **external U error (ppm)**</br>
 **external Th (ppm)**</br>
 **external Th error (ppm)**</br>
-**external K (ppm)**</br>
-**external K error (ppm)**</br>
+**external K (%)**</br>
+**external K error (%)**</br>
 **external Rb (ppm)**</br>
 **external Rb error (ppm)**</br>
 **External dose rate (Gy/ka)**</br>
@@ -46,8 +46,8 @@
 **internal U error (ppm)**</br>
 **internal Th (ppm)**</br>
 **internal Th error (ppm)**</br>
-**internal K (ppm)**</br>
-**internal K error (ppm)**</br>
+**internal K (%)**</br>
+**internal K error (%)**</br>
 **internal Rb (ppm)**</br>
 **internal Rb error (ppm)**</br>
 **Internal dose rate (Gy/ka)**</br>

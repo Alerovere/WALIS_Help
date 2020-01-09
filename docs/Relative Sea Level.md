@@ -59,22 +59,31 @@
 **Other age constraints** - Select one or more other age constraints. New ages can be added in the 'Other age constraints' table.</br>
 
 ##Quality
-**Quality of record** - Rate the quality of the record, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found in *Table 1*</br>
+**Quality of RSL data** - Rate the quality of the record for which concents RSL data, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found in *Table 1*</br>
+**Quality of age information** - Rate the quality of the record for which concerns age information, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found in *Table 2*</br>
 **Quality notes** - Detail the reason for the quality score assigned to the record or the reason for rejection.</br></br>
 
-*Table 1. Guidelines for the evaluation of quality.*
+*Table 1. Guidelines for the evaluation of RSL data quality.*
 
-| Description                                                                                                                                                                                                                                                             | Quality rating |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| Paleo RSL uncertainty is sub-metricAge well-constrained through multiple analyses or confirmed with different techniques</br>Age well-constrained through multiple analyses or confirmed with different techniques                                                          | 5 (excellent)  |
-| Paleo RSL uncertainty is between one and two meters</br>Age well-constrained through multiple analyses or confirmed with different techniques</br> OR</br> Paleo RSL uncertainty is sub-metric</br>Age can be constrained only to a general MIS 5e age, confirmed by different techniques | 4 (good)       |
-| Paleo RSL uncertainty is higher than two meters</br>Age can be constrained only to a general MIS 5e age, confirmed by different techniques</br> OR</br> Paleo RSL uncertainty is between one and two meters </br>Poor age constraints but consistent with MIS 5e age                       | 3 (average)    |
-| Paleo RSL uncertainty is higher than two meters </br>Poor age constraints but consistent with MIS 5e age</br> OR</br> Paleo RSL uncertainty is between one and two meters</br> Only a general Last Interglacial age can be gathered from available age constraints                          | 2 (poor)       |
-| Paleo RSL uncertainty is higher than two meters</br> Only a general Last Interglacial age can be gathered from available age constraints                                                                                                                                     | 1 (very poor)  |
-| There is not enough information to accept the record as a valid RSL indicator                                                                                                                                                                                           | 0 (rejected)   |
+| Description                                                                                                                                                    | Quality rating |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| Elevation precisely measured, referred to a clear datum and RSL indicator with a very narrow indicative range. Final RSL uncertainty is submetric.             | 5 (excellent)  |
+| Elevation precisely measured, referred to a clear datum and RSL indicator with a narrow indicative range. Final RSL uncertainty is between one and two meters. | 4 (good)       |
+| Uncertainties in elevation, datum or indicative range sum up to a value between two and three meters.                                                          | 3 (average)    |
+| Final paleo RSL uncertainty is higher than three meters                                                                                                        | 2 (poor)       |
+| Elevation and / or indicative range must be regarded as very uncertain due to poor measurement / description / RSL indicator quality                           | 1 (very poor)  |
+| There is not enough information to accept the record as a valid RSL indicator (e.g. marine or terrestial limiting)                                             | 0 (rejected)   |
 
+*Table 2. Guidelines for the evaluation of age information quality.*
 
-
+| Description                                                                                                                    | Quality rating |
+|--------------------------------------------------------------------------------------------------------------------------------|----------------|
+| Very narrow age range, e.g. few ka, that allow the attribution to a specific timing within a substage of MIS 5 (e.g. 117±2 ka) | 5 (excellent)  |
+| Narrow age range, allowing the attribution to a specific substage of MIS 5 (e.g., MIS 5e)                                      | 4 (good)       |
+| The RSL data point can be attributed only to a generic interglacial (e.g. MIS 5)                                               | 3 (average)    |
+| Only partial information or minimum age constraints are available                                                              | 2 (poor)       |
+| Different age constraints point to different interglacials                                                                     | 1 (very poor)  |
+| Not enough information to attribute the RSL data point to any pleistocene interglacial.                                        | 0 (rejected)   |
 
 [^1]: Rovere, A., Raymo, M.E., Vacchi, M., Lorscheid, T., Stocchi, P., Gomez-Pujol, L., Harris, D.L., Casella, E., O'Leary, M.J. and Hearty, P.J., 2016. The analysis of Last Interglacial (MIS 5e) relative sea-level indicators: Reconstructing sea-level in a warmer world. Earth-Science Reviews, 159, pp.404-427.
 [^2]: Lorscheid T, Rovere A (2019) The indicative meaning calculator – quantification of paleo sea-level relationships by using global wave and tide datasets. Open Geospatial Data, Softw Stand 4:10. doi: 10.1186/s40965-019-0069-8
