@@ -1,6 +1,6 @@
 ##General Information
 **Site name** - Name of the site. This could be a local geographic name, or the name of the town/city where the site is located.</br>
-**Subsite** - Subsite, transect, geological section or outcrop identification name.</br>
+**Subsite** - Survey name or transect number assigned to the site. This may also include a sub-facies within the sea level sequence.</br>
 **Nation** - The nation where the site is located.</br>
 **Region** - The administrative region or province where the site is located.</br>
 **Main reference** - Select the main reference reporting the site, i.e., the paper from which RSL information has been extracted.</br>
