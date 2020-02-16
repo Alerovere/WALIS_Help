@@ -1,67 +1,111 @@
 ##General Information
-**Site name** - Name of the site. This could be a local geographic name, or the name of the town/city where the site is located.</br>
-**Subsite** - Survey name or transect number assigned to the site. This may also include a sub-facies within the sea level sequence.</br>
-**Nation** - The nation where the site is located.</br>
-**Region** - The administrative region or province where the site is located.</br>
-**Main reference** - Select the main reference reporting the site, i.e., the paper from which RSL information has been extracted.</br>
-**Additional References** - Select further references describing the site. Ideally this field includes all the historical references reporting on the site.</br>
-**Latidude (decimal degrees)** - Latitude of the site, in decimal degrees.</br>
-**Longitude (decimal degrees)** - Longitude of the site, in decimal degrees.</br>
-**Horizontal Positioning Technique** - Select the Horizontal positioning technique used to establish the site Lat/Long coordinates. New positioning techniques can be added as necessary, referring to the [Geographic positioning](Geographic positioning.md) table.</br>
-**Is this a marine/terrestrial limiting record?** - Indicate if the record inserted is a marine or terrestrial limiting, or a sea level indicator. The following fields will update accordingly. For a definition of marine/terrestrial limiting in MIS 5e, see Rovere et al., 2016[^1]. See *Figure 1* for an example</br>
-**Type of RSL Indicator** - Sea level indicator that was reported at the site. New indicators can be added from to the [Type of RSL indicator](Type of RSL indicator.md) table.</br></br>
+**Site name** - Name of the site. This could be a local geographic name, or the name of the town/city where the site is located.
+
+**Subsite** - Survey name or transect number assigned to the site. This may also include a sub-facies within the sea level sequence.
+
+**Nation** - The nation where the site is located.
+
+**Region** - The administrative region or province where the site is located.
+
+**Main reference** - The main reference from which RSL information has been extracted. This is usually the reference describing the site and reporting measurement and dating details.
+
+**Additional References** - Select further references describing the site. Ideally this field includes all the historical references reporting on the site.
+
+**Latidude (decimal degrees)** - Latitude of the site, in decimal degrees.
+
+**Longitude (decimal degrees)** - Longitude of the site, in decimal degrees.
+
+**Horizontal Positioning Technique** - Define the positioning technique used to establish the site Lat/Long coordinates. New positioning techniques can be added as necessary, referring to the [Geographic positioning](Geographic positioning.md) table.
+
+**Is this a marine/terrestrial limiting record?** - Indicate if the record inserted is a marine or terrestrial limiting, or a sea level indicator. The following fields will update accordingly. For a definition of marine/terrestrial limiting in MIS 5e, see Rovere et al., 2016[^1]. See *Figure 1* for an example.
+
+**Type of RSL Indicator** - Sea level indicator that was reported at the site. New indicators can be added from to the [Type of RSL indicator](Type of RSL indicator.md) table.
 
 <center><img src="https://raw.githubusercontent.com/Alerovere/WALIS_Help/master/docs/img/Terr_mar_limiting.JPG" width="800" height="200"></br>
 *Figure 1. Graphical representation of Marine and Terrestrial limitind vs Sea Level Indicators, from Rovere et al., 2016[^1].*</center>
 
 ##Elevation and Paleo RSL
-**Upper limit of modern analog (m)** - Insert here the highest elevation at which the modern analog is found. </br>
-**Lower limit of modern analog (m)** - Insert here the lowest elevation at which the modern analog is found.</br>
+**Upper limit of modern analog (m)** - Elevation of the highest point at which the facies/landform occurs along the modern shoreline.
+
+**Lower limit of modern analog (m)** - Elevation of the lowest point at which the facies/landform occurs along the modern shoreline.
+
 **Quantification of Indicative meaning** - Indicate how the indicative meaning has been quantified. Two selections are possible:</br>
 -IMCalc - Using the tool developed by Lorscheid and Rovere (2019)[^2].</br>
 -Modern analog data - From modern analog data available for the study area. See example in Rovere et al., 2016[^1].</br>
-**Sea level datum** - Sea level datum to which the elevations are referred. New sea level datums can be added from the [Sea Level Datum](Sea Level Datum.md) table.</br>
-**Elevation measurement technique** - Method employed to measure elevations. New techniques can be added from the [Elevation Measurement](Elevation measurement.md) table.</br>
-**Do you want to insert upper and lower elevation limits?** -  Select "Yes" if the sea level indicator was measured as two-points elevation (*Figure 2*).</br>
+
+**Sea level datum** - VErtical datum to which the elevations are referred. New sea level datums can be added from the [Sea Level Datum](Sea Level Datum.md) table.
+
+**Elevation measurement technique** - Method employed to measure elevations. New techniques can be added from the [Elevation Measurement](Elevation measurement.md) table.
+
+**Do you want to insert upper and lower elevation limits?** -  Select "Yes" if the sea level indicator was measured as two-points elevation (*Figure 2*).
+
 **Lower elevation of indicator** - The lower measured elevation of the sea level indicator, as shown in *Figure 2*</br>
+
 **Upper elevation of indicator** - The upper measured elevation of the sea level indicator, as shown in *Figure 2*</br>
+
 **Upper/Lower elevation measurement error (m)** - Insert here the elevation measurement error for the Upper and Lower elevation measurements. Insert ±1-sigma values.</br>
-**RSL indicator elevation (m)** - Elevation of RSL indicator (single-point case).</br>
-**RSL indicator elevation error (m)** - Elevation error associated with RSL indicator (single-point case).</br></br>
+
+**RSL indicator elevation (m)** - Elevation of RSL indicator. This value is auto-calculated if upper and lower elevation limits are specified above.
+
+**RSL indicator elevation error (m)** - Elevation error associated with the elevation measurement. For GPS and similar instrumental measurement, use ±1σ error levels. This value is auto-calculated if upper and lower elevation limits are specified above.</br>
 
 <center><img src="https://github.com/Alerovere/WALIS_Help/blob/master/docs/img/Limits.jpg?raw=true"  width="500" height="200"></br>
 *Figure 2. Graphical representation of single point (default) vs two-point elevation.*</center>
 
-**Notes on elevation** - Insert comments on how elevation data has been obtained / treated.</br>
-**Reference Water Level (m)** - This value is auto-calculated from the previous ones, only if 'Sea level indicator' has been chosen in the 'Is this a marine/terrestrial limiting record?' field.</br>
-**Indicative Range (m)** - This value is auto-calculated from the previous ones, only if 'Sea level indicator' has been chosen in the 'Is this a marine/terrestrial limiting record?' field.</br>
-**Paleo Relative Sea Level (m)** - This value is auto-calculated from the previous ones, only if 'Sea level indicator' has been chosen in the 'Is this a marine/terrestrial limiting record?' field.</br>
-**Paleo Relative Sea Level Uncertainty (m)** - This value is auto-calculated from the previous ones, only if 'Sea level indicator' has been chosen in the 'Is this a marine/terrestrial limiting record?' field.</br>
-**Is data on vertical land movements (independent from the sea level record) available?** - Select 'Yes' or 'No' depending on the available data. If 'Yes' is selected, a new tab will open to insert vertical land movements accordingly.</br>
+**Notes on elevation** - Insert comments on how elevation data has been obtained / treated.
+
+**Reference Water Level (m)** - This value is auto-calculated from the previous ones, only if 'Sea level indicator' has been chosen in the 'Is this a marine/terrestrial limiting record?' field.
+
+**Indicative Range (m)** - This value is auto-calculated from the previous ones, only if 'Sea level indicator' has been chosen in the 'Is this a marine/terrestrial limiting record?' field.
+
+**Paleo Relative Sea Level (m)** - This value is auto-calculated from the previous ones, only if 'Sea level indicator' has been chosen in the 'Is this a marine/terrestrial limiting record?' field.
+
+**Paleo Relative Sea Level Uncertainty (m)** - This value is auto-calculated from the previous ones, only if 'Sea level indicator' has been chosen in the 'Is this a marine/terrestrial limiting record?' field.
+
+**Is data on vertical land movements (independent from the sea level record) available?** - Select 'Yes' or 'No' depending on the available data. If 'Yes' is selected, a new tab will open to insert vertical land movements accordingly.
 
 ##Vertical Land Movements
-***This tab is open only if 'Yes' is selected in the field above.***</br>
-**Tectonic category** - Select the tectonic category from a dropdown menu.</br>
-**Tectonic category comments** - Comments on the tectonic category selection.</br>
-**Published VLM rate (m/ky)** - Vertical land motion rate as reported in the original study.</br>
-**Published VLM rate uncertainty (m/ky)**- Vertical land motion rate uncertainty as reported in the original study.</br>
-**Interpreted VLM rate (m/ky)** - Vertical land motion rate, if re-calculated from the original study.</br>
-**Interpreted VLM rate (m/ky) uncertainty** - Vertical land motion rate uncertainties, if re-calculated from the original study.</br>
-**Comments on VLM rates** - Insert here any further comment on vertical land motion rates.</br>
+*This tab is displayed only if 'Yes' is selected in the field above.*
+
+**Tectonic category** - Select the tectonic category from a dropdown menu.
+
+**Comments on tectonic category** - Comments on the tectonic category selection.
+
+**Published VLM rate (m/ky)** - Vertical land motion rate as reported in the original study.
+
+**Published VLM rate uncertainty (m/ky)**- Vertical land motion rate uncertainty as reported in the original study.
+
+**Interpreted VLM rate (m/ky)** - Vertical land motion rate, if re-calculated from the original study.
+
+**Interpreted VLM rate (m/ky) uncertainty** - Vertical land motion rate uncertainties, if re-calculated from the original study.
+
+**Comments on VLM rates** - Insert here any further comment on vertical land motion rates.
 
 ##Age Constraints
-**Age attribution** - Select one age attribution method from the list. The space below will populate accordingly.</br>
-**U-series ages** - Select one or more U-series ages. New ages can be added in the 'U-Series' table.</br>
-**Amino Acid Racemization** - Select one or more AAR ages. New ages can be added in the 'AAR' table.</br>
-**Luminescence** - Select one or more Luminescence ages. New ages can be added in the 'Luminescence' table.</br>
-**Electro Spin Resonance** - Select one or more ESR ages. New ages can be added in the 'ESR' table.</br>
-**Stratigraphic context/age** - Select one or more stratigraphic context ages. New ages can be added in the 'Chronostratigraphy' table.</br>
-**Other age constraints** - Select one or more other age constraints. New ages can be added in the 'Other age constraints' table.</br>
+*At least one age constraint must be entered in this tab. Without age constraints, a RSL datapoint cannot be saved.*
+
+**Age attribution** - Select one age attribution method from the list. The space below will populate accordingly.
+
+**U-series ages** - Select one or more U-series ages. New ages can be added in the 'U-Series' table.
+
+**Amino Acid Racemization** - Select one or more AAR ages. New ages can be added in the 'AAR' table.
+
+**Luminescence** - Select one or more Luminescence ages. New ages can be added in the 'Luminescence' table.
+
+**Electro Spin Resonance** - Select one or more ESR ages. New ages can be added in the 'ESR' table.
+
+**Stratigraphic context/age** - Select one or more stratigraphic context ages. New ages can be added in the 'Chronostratigraphy' table.
+
+**Other age constraints** - Select one or more other age constraints. New ages can be added in the 'Other age constraints' table.
 
 ##Quality
-**Quality of RSL data** - Rate the quality of the record for which concents RSL data, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found in *Table 1*</br>
-**Quality of age information** - Rate the quality of the record for which concerns age information, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found in *Table 2*</br>
-**Quality notes** - Detail the reason for the quality score assigned to the record or the reason for rejection.</br></br>
+*This tab requires a creator-oriented an evaluation of the quality of the RSL data and age information.*
+
+**Quality of RSL data** - Rate the quality of the record for which concents RSL data, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found in *Table 1*
+
+**Quality of age information** - Rate the quality of the record for which concerns age information, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found in *Table 2*
+
+**Quality notes** - Detail the reason for the quality score assigned to the record or the reason for rejection.
 
 *Table 1. Guidelines for the evaluation of RSL data quality.*
 
