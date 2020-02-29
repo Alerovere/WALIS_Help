@@ -1,5 +1,13 @@
-*This section was designed by A. Dutton and P. Chutcharavan, based on a previous template by Hibbert et al. (2016)[^1].*</br>
+*This section was designed by A. Dutton and P. Chutcharavan, based on a previous template by Hibbert et al. (2016)[^1].*
+
 ***The help for the 'Analsis metadata' and 'Geographic metadata' tabs can be found [here](dating.md)***
+
+##Initial selection
+These fields define how the U-Series data will be inserted.
+
+**Select the dated material** - Select which dated material will be entered.
+
+**Select wether U-Series data were recalculated** - Select if only originally reported data area available or they were recalculated.
 
 ##Material and biological facies data
 **Terrace ID** - Identified terrace the sample came from.</br>
