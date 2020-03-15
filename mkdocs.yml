@@ -1,6 +1,7 @@
 site_name: WALIS
 nav:
     - Home: index.md
+    - Open data: open.md
     - Relative Sea Level: Relative Sea Level.md
     - Type of RSL indicator: Type of RSL indicator.md
     - Geographic positioning: Geographic positioning.md

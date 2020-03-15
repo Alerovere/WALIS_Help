@@ -1,4 +1,5 @@
-# Welcome to WALIS
+**Welcome to WALIS!**
+
 This website is the official documentation of WALIS, and contains help tips to compile data into the World Atlas of Last Interglacial Shorelines database.
 
 Many of the data insertion tabs start asking wether the data can be made publicly visible. If data are made public, everyone logging into WALIS will be able to see them, but not edit them. Once made public, data can be edited by the original user, but not deleted. To delete a data point, please email arovere@marum.de.
