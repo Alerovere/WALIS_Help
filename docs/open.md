@@ -1,8 +1,7 @@
 **Open data**
 
-WALIS is work in progress, as part of a Journal Special Issue in Earth System Science Data. The data is made available to the public in real time as soon as "Public" is selected in the insert data option. 
+WALIS is work in progress, as part of a Special Issue in the Journal "Earth System Science Data", an open-access publication by Copernicus. A series of invited authors is working on data insertion, and will author regional papers within the Special Issue.
 
-There are two main ways to visualize the data:
+If you are not involved in the Special Issue, you can still insert data and they will remain private. If you want to make them public, or contribute to the Special Issue, we kindly invite you to contact arovere@marum.de
 
-1. Explore both public and un-published (limited information only) data in a webmap. 
-2. Explore and download the data through the "Publicly available data" tab in the main menu.
+If you notice discrepancies of errors within the database, please write a bug report.
