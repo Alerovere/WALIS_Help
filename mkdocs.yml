@@ -18,7 +18,4 @@ nav:
     - How to cite: citation.md
 markdown_extensions:
   - footnotes
-plugins:
-    - search
-    - mkpdfs
 theme: readthedocs 
