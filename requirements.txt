@@ -1,4 +1,4 @@
 recommonmark
 sphinx_rtd_theme
 sphinx_markdown_tables
-sphinx_search
+readthedocs-sphinx-search
