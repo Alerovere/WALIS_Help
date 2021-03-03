@@ -1,0 +1,11 @@
+Field,Type,Collation,Null,Key,Comment
+login,varchar(255),utf8 _ general _ ci,NO,PRI,
+pswd,varchar(255),utf8 _ general _ ci,NO,,
+name,varchar(64),utf8 _ general _ ci,YES,,
+email,varchar(255),utf8 _ general _ ci,YES,,
+active,varchar(1),utf8 _ general _ ci,YES,,
+activation _ code,varchar(32),utf8 _ general _ ci,YES,,
+Institution,varchar(255),utf8 _ general _ ci,YES,,
+Country,varchar(255),utf8 _ general _ ci,YES,,
+PP _ TC _ Accept,varchar(255),utf8 _ general _ ci,YES,,
+priv _ admin,varchar(1),utf8 _ general _ ci,YES,,

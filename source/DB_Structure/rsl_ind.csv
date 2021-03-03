@@ -1,0 +1,10 @@
+Field,Type,Collation,Null,Key,Comment
+idrsl _ ind,int(11),,NO,PRI,WALIS RSLind ID
+Ind _ name,mediumtext,utf8 _ general _ ci,YES,,Name of RSL indicator
+Ind _ descr,longtext,utf8 _ general _ ci,YES,,Description of RSL indicator
+RWL _ descr,longtext,utf8 _ general _ ci,YES,,Description of RWL
+IR _ descr,longtext,utf8 _ general _ ci,YES,,Description of IR
+Ref _ indicator,mediumtext,utf8 _ general _ ci,YES,,Indicator reference(s)
+Createdby,varchar(45),utf8 _ general _ ci,YES,,Record created by
+Updatedby,varchar(45),utf8 _ general _ ci,YES,,Record updated by
+LastUpdate,date,,YES,,Last Update

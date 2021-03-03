@@ -1,0 +1,3 @@
+Field,Type,Collation,Null,Key,Comment
+id,smallint(5) unsigned,,NO,PRI,Country ID
+name,varchar(255),latin1 _ swedish _ ci,NO,UNI,Country name

@@ -1,0 +1,15 @@
+Field,Type,Collation,Null,Key,Comment
+idOther _ dating,int(11),,NO,PRI,WALIS Other chronology ID
+Public,varchar(45),utf8 _ general _ ci,YES,,Is this datapoint public?
+Short name,varchar(45),utf8 _ general _ ci,YES,,Short name
+Dating _ technique,mediumtext,utf8 _ general _ ci,YES,,Dating technique
+Description,longtext,utf8 _ general _ ci,YES,,Description
+Upper age,"decimal(10,2)",,YES,,Upper age (ka)
+Lower age,"decimal(10,2)",,YES,,Lower age (ka)
+MISchoice _ limit,varchar(45),utf8 _ general _ ci,YES,,Age is Older/Equal/Younger than
+MISchoice,varchar(45),utf8 _ general _ ci,YES,,Marine Isotopic Stage
+MIS,longtext,utf8 _ general _ ci,YES,,Comments/details on MIS designation
+Ref,varchar(45),utf8 _ general _ ci,YES,,Reference(s)
+Createdby,varchar(45),utf8 _ general _ ci,YES,,Record created by
+Updatedby,varchar(45),utf8 _ general _ ci,YES,,Record updated by
+LastUpdate,datetime,,YES,,Last Update

@@ -1,0 +1,136 @@
+Field,Type,Collation,Null,Key,Comment
+ID _ Useries,int(11),,NO,PRI,WALIS U-Series ID
+Public,mediumtext,utf8 _ general _ ci,YES,,Is this datapoint public?
+Material _ type,varchar(45),utf8 _ general _ ci,YES,,Material type
+Material _ details,mediumtext,utf8 _ general _ ci,YES,,Details on dated material
+Recalc,varchar(45),utf8 _ general _ ci,YES,,Were U-Series data recalculated?
+Spectr,varchar(45),utf8 _ general _ ci,YES,,Type of spectrometry
+RSL _ Estimate _ avaliable,varchar(45),utf8 _ general _ ci,YES,,Are RSL estimates available for this record?
+Tectonics,varchar(45),utf8 _ general _ ci,YES,,Are data on tectonics available?
+Source,mediumtext,utf8 _ general _ ci,YES,,Reference(s)
+IGSN,varchar(100),utf8 _ general _ ci,YES,,IGSN
+SampleID,varchar(100),utf8 _ general _ ci,YES,,Sample ID
+AnalysisID,varchar(100),utf8 _ general _ ci,YES,,Analysis ID
+ReportedID,varchar(100),utf8 _ general _ ci,YES,,Reported ID
+Analysis _ Date,datetime,,YES,,Date of analysis
+Accepted,varchar(45),utf8 _ general _ ci,YES,,Accepted?
+ReasonRej,longtext,utf8 _ general _ ci,YES,,Reason for rejection
+Accepted _ other,varchar(45),utf8 _ general _ ci,YES,,Accepted in other study?
+Reas _ rej _ other,longtext,utf8 _ general _ ci,YES,,Reason for rejection in other studies
+Other ref,varchar(45),utf8 _ general _ ci,YES,,Other study ID
+Screening,longtext,utf8 _ general _ ci,YES,,Screening
+Location,mediumtext,utf8 _ general _ ci,YES,,Location
+Site,mediumtext,utf8 _ general _ ci,YES,,Site
+Additional _ site _ info,longtext,utf8 _ general _ ci,YES,,Additional site information
+SampleLat,varchar(45),utf8 _ general _ ci,YES,,Latitude (decimal degrees)
+SampleLon,varchar(45),utf8 _ general _ ci,YES,,Longitude (decimal degrees)
+Reported _ Latitude,varchar(45),utf8 _ general _ ci,YES,,Reported Latitude
+Reported _ Longitude,varchar(45),utf8 _ general _ ci,YES,,Reported Longitude
+Lat _ Lon _ est,mediumtext,utf8 _ general _ ci,YES,,Are Lat/Long estimated?
+Coord _ comments,longtext,utf8 _ general _ ci,YES,,Comments on geographic coordinates
+Original _ elevation _ datum _ used,mediumtext,utf8 _ general _ ci,YES,,Original elevation datum used
+How _ elevation _ derived,mediumtext,utf8 _ general _ ci,YES,,Elevation measurement method
+Elevation _ reported,varchar(45),utf8 _ general _ ci,YES,,Reported elevation (m)
+Reported _ elevation _ uncertainty,varchar(45),utf8 _ general _ ci,YES,,Reported elevation uncertainty (m)
+Elevation _ above _ MSL,varchar(45),utf8 _ general _ ci,YES,,Elevation above MSL (m)
+Elevation _ uncertainty _ used,varchar(45),utf8 _ general _ ci,YES,,Elevation uncertainty used (m)
+Interpr _ elev,mediumtext,utf8 _ general _ ci,YES,,Interpreted elevation relative to mllw/mlws (m)
+Elevation _ comments,longtext,utf8 _ general _ ci,YES,,Elevation comments
+Tect _ cat,mediumtext,utf8 _ general _ ci,YES,,Tectonic category
+Publ _ uplift,varchar(45),utf8 _ general _ ci,YES,,Published uplift rate (m/ky)
+Publ _ uplift _ unc,varchar(45),utf8 _ general _ ci,YES,,Published uncertainty in uplift rate (m/ky)
+Interpr _ uplift,varchar(45),utf8 _ general _ ci,YES,,Interpreted uplift rate (m/ky)
+Interpr _ uplift _ unc,varchar(45),utf8 _ general _ ci,YES,,Interpreted uplift rate uncertainty (m/ky)
+Comments _ uplift,longtext,utf8 _ general _ ci,YES,,"Comments (uplift), including sources of uplift rates"
+Speleo _ insitu,varchar(45),utf8 _ general _ ci,YES,,Reported in situ?
+Speleo _ deposit _ type,varchar(45),utf8 _ general _ ci,YES,,Type of deposit
+Speleo _ distance _ base,varchar(45),utf8 _ general _ ci,YES,,Distance from base of deposit (m)
+Speleo _ Sampled _ material,varchar(45),utf8 _ general _ ci,YES,,Sampled material
+Speleo _ add _ context,longtext,utf8 _ general _ ci,YES,,Additional sample context
+Speleo _ RSL,varchar(45),utf8 _ general _ ci,YES,,paleo RSL (m)
+Speleo _ RSL _ uncertainty,varchar(45),utf8 _ general _ ci,YES,,paleo RSL uncertainty (m)
+Terrace _ ID,mediumtext,utf8 _ general _ ci,YES,,Terrace ID
+Facies _ descr,longtext,utf8 _ general _ ci,YES,,Facies description
+In _ situ,tinytext,utf8 _ general _ ci,YES,,Reported as in situ?
+Growth _ pos,tinytext,utf8 _ general _ ci,YES,,Reported as in growth position?
+Coral _ taxa _ information,longtext,utf8 _ general _ ci,YES,,Taxa information (as reported)
+Family,mediumtext,utf8 _ general _ ci,YES,,Family
+Genus,mediumtext,utf8 _ general _ ci,YES,,Genus
+Species,mediumtext,utf8 _ general _ ci,YES,,Species
+Original _ paleodepth _ interpretation,longtext,utf8 _ general _ ci,YES,,Original palaeodepth interpretation
+Comments _ Ecology,longtext,utf8 _ general _ ci,YES,,Ecological metadata
+PWD _ estimate,varchar(45),utf8 _ general _ ci,YES,,Paleo water depth estimate (m)
+PWD _ upper,varchar(45),utf8 _ general _ ci,YES,,Upper limit of living range (m)
+PWD _ lower,varchar(45),utf8 _ general _ ci,YES,,Lower limit of living range (m)
+PWD _ comments,longtext,utf8 _ general _ ci,YES,,Paleo water depth comments
+Pa _ Th _ Age,tinytext,utf8 _ general _ ci,YES,,Pa/Th age?
+14C _ Age,tinytext,utf8 _ general _ ci,YES,,14C age?
+Instrument,varchar(45),utf8 _ general _ ci,YES,,Instrument
+Decay _ Const,varchar(45),utf8 _ general _ ci,YES,,Decay constants
+Comments _ on _ decay _ constants,longtext,utf8 _ general _ ci,YES,,Comments on decay constants
+Calib _ Method _ 230Th _ 238U,varchar(45),utf8 _ general _ ci,YES,,Calibration method for 230Th/238U ratio
+Calib _ Method _ 234U _ 238U,varchar(45),utf8 _ general _ ci,YES,,Calibration method for 234U/238U ratio
+Comments _ on _ spike _ calibration,longtext,utf8 _ general _ ci,YES,,Comments on spike calibration
+Speleo _ mineralogy _ detected,varchar(45),utf8 _ general _ ci,YES,,How was speleothem mineralogy determined?
+Speleo _ mineralogy,varchar(45),utf8 _ general _ ci,YES,,Speleothem mineralogy
+Other _ screening _ techniques,longtext,utf8 _ general _ ci,YES,,Other screening techniques applied
+Publ _ calcite,varchar(45),utf8 _ general _ ci,YES,,Published % calcite
+Interpr _ calcite,varchar(45),utf8 _ general _ ci,YES,,Interpreted % calcite
+230 _ 232 _ Th _ ACT _ backcalc,varchar(45),utf8 _ general _ ci,YES,,[230Th/232Th]ACT backcalculated?
+232Th _ 238U _ ACT _ backcalc,varchar(45),utf8 _ general _ ci,YES,,[232Th/238U]ACT backcalculated?
+230Th _ 238U _ ACT _ backcalc,varchar(45),utf8 _ general _ ci,YES,,[230Th/238U]ACT backcalculated?
+234Th _ 238U _ ACT _ backcalc,varchar(45),utf8 _ general _ ci,YES,,[234Th/238U]ACT backcalculated?
+232Th,varchar(45),utf8 _ general _ ci,YES,,[232Th] (ppb)
+232Th _ unc,varchar(45),utf8 _ general _ ci,YES,,[232Th] (ppb) uncertainty (±2sigma)
+238U,varchar(45),utf8 _ general _ ci,YES,,[238U] (ppm)
+238U _ unc,varchar(45),utf8 _ general _ ci,YES,,[238U] (ppm) uncertainty (±2sigma)
+Atom _ ratio _ 232Th _ 238U,varchar(45),utf8 _ general _ ci,YES,,Atomic ratio (232Th/238U)*10^5
+230 _ 232Th _ init,varchar(45),utf8 _ general _ ci,YES,,Initial 230Th/232Th
+230Th _ 232Th _ ACT,varchar(45),utf8 _ general _ ci,YES,,[230Th/232Th]ACT
+230Th _ 232Th _ ACT _ unc,varchar(45),utf8 _ general _ ci,YES,,[230Th/232Th]ACT uncertainty (±2sigma)
+232Th _ 238U _ ACT,varchar(45),utf8 _ general _ ci,YES,,[232Th/238U]ACT
+232Th _ 238U _ ACT _ unc,varchar(45),utf8 _ general _ ci,YES,,[232Th/238U]ACT uncertainty (±2sigma)
+230Th _ 234U _ ACT,varchar(45),utf8 _ general _ ci,YES,,[230Th/234U]ACT
+230Th _ 234U _ ACT _ unc,varchar(45),utf8 _ general _ ci,YES,,[230Th/234U]ACT uncertainty (±2sigma)
+230Th _ 238U _ ACT,varchar(45),utf8 _ general _ ci,YES,,[230Th/238U]ACT
+230Th _ 238U _ ACT _ unc,varchar(45),utf8 _ general _ ci,YES,,[230Th/238U]ACT uncertainty (±2sigma)
+234U _ 238 _ ACT,varchar(45),utf8 _ general _ ci,YES,,[234U/238U]ACT
+234U _ 238U _ ACT _ unc,varchar(45),utf8 _ general _ ci,YES,,[234U/238U]ACT uncertainty (±2sigma)
+Reported _ age,varchar(45),utf8 _ general _ ci,YES,,Reported age (ka)
+Reported _ age _ unc,varchar(45),utf8 _ general _ ci,YES,,"Reported ageuncertainty (ka, ±2sigma)"
+Speleo _ corr _ rep _ age,varchar(45),utf8 _ general _ ci,YES,,Corrected reported age (ka)
+Speleo _ corr _ rep _ age _ unc,varchar(45),utf8 _ general _ ci,YES,,"Corrected reported age uncert. (ka, ±2sigma)"
+Reported _ d234U _ init,varchar(45),utf8 _ general _ ci,YES,,Reported delta 234U initial (‰)
+Reported _ d234U _ unc,varchar(45),utf8 _ general _ ci,YES,,Reported delta 234U (‰) uncertainty (±2sigma)
+234U _ 238U _ init,varchar(45),utf8 _ general _ ci,YES,,Initial 234U/238U
+234U _ 238U _ init _ unc,varchar(45),utf8 _ general _ ci,YES,,Initial 234U/238U uncertainty (±2sigma)
+234U _ 238U _ meas,varchar(45),utf8 _ general _ ci,YES,,Measured 234U/238U
+234U _ 238U _ meas _ unc,varchar(45),utf8 _ general _ ci,YES,,Measured 234U/238U uncertainty (±2sigma)
+Meas _ delta234U,varchar(45),utf8 _ general _ ci,YES,,Measured delta234U
+Meas _ delta234U _ unc,varchar(45),utf8 _ general _ ci,YES,,Measured delta234U uncertainty (±2sigma)
+Comments _ Age,longtext,utf8 _ general _ ci,YES,,Comments on age determination
+Ref _ 230Th _ 238U,varchar(45),utf8 _ general _ ci,YES,,Reference material name for 230Th/238U
+Ref _ 234U _ 238U,varchar(45),utf8 _ general _ ci,YES,,Reference material name for 234U/238U
+Corr _ 230Th _ 238U,varchar(45),utf8 _ general _ ci,YES,,Correction factor for 230Th/238U
+Corr _ 230Th _ 238U _ unc,varchar(45),utf8 _ general _ ci,YES,,Correction factor for 230Th/238U uncertainty (±2sigma)
+Corr _ 234U _ 238U,varchar(45),utf8 _ general _ ci,YES,,Correction factor for 234U/238U
+Corr _ 234U _ 238U _ unc,varchar(45),utf8 _ general _ ci,YES,,Correction factor for 234U/238U uncertainty (±2sigma)
+Comments,longtext,utf8 _ general _ ci,YES,,Comments
+Rec _ 230Th _ 238U _ ACT,varchar(45),utf8 _ general _ ci,YES,,Recalculated [230Th/238U]ACT
+Rec _ 230Th _ 238U _ ACT _ unc,varchar(45),utf8 _ general _ ci,YES,,Recalculated [230Th/238U]ACT uncertainty (±2sigma)
+Rec _ 234U _ 238 _ ACT,varchar(45),utf8 _ general _ ci,YES,,Recalculated [234U/238U]ACT
+Rec _ 234U _ 238U _ ACT _ unc,varchar(45),utf8 _ general _ ci,YES,,Recalculated [234U/238U]ACT uncertainty (±2sigma)
+Rec _ age,varchar(45),utf8 _ general _ ci,YES,,Recalculated Conventional Age (ka)
+Rec _ age _ unc,varchar(45),utf8 _ general _ ci,YES,,Recalculated Conventional Age uncert. (±2sigma)
+Rec _ d234U _ init,varchar(45),utf8 _ general _ ci,YES,,Recalculated delta 234Ui (‰)
+Rec _ d234U _ unc,varchar(45),utf8 _ general _ ci,YES,,Recalculated delta 234Ui uncertainty (±2sigma)
+Rec _ Conv _ age _ no _ decay,varchar(45),utf8 _ general _ ci,YES,,Recalculated Conventional Age uncert. w/ decay constant uncertainties (±2sigma)
+Rec _ d234Init _ no _ decay,varchar(45),utf8 _ general _ ci,YES,,Recalculated delta 234Ui uncert. (±2sigma) w/ decay constant uncertainties
+Comments age and d234Ui,longtext,utf8 _ general _ ci,YES,,Comments (age and delta234i)
+MISchoice _ limit,varchar(45),utf8 _ general _ ci,YES,,Age is Older/Equal/Younger than
+MISchoice,varchar(45),utf8 _ general _ ci,YES,,Marine Isotopic Stage
+Age determination,longtext,utf8 _ general _ ci,YES,,Age determination
+Createdby,varchar(45),utf8 _ general _ ci,YES,,Record created by
+Updatedby,varchar(45),utf8 _ general _ ci,YES,,Record updated by
+LastUpdate,datetime,,YES,,Last Update
+coord,point,,YES,,MySQL coordinates

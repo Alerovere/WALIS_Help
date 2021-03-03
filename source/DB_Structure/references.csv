@@ -1,0 +1,16 @@
+Field,Type,Collation,Null,Key,Comment
+Ref _ ID,int(11),,NO,PRI,WALIS reference ID
+ShortRef,mediumtext,utf8 _ bin,YES,,Reference
+Fullref,longtext,utf8 _ bin,YES,,Full reference
+Journal,mediumtext,utf8 _ bin,YES,,Journal
+Year,int(4),,YES,,Year
+doi,mediumtext,utf8 _ bin,YES,,doi
+Link,varchar(100),utf8 _ general _ ci,YES,,Link
+Nation,mediumtext,utf8 _ general _ ci,YES,,Nation
+Language,mediumtext,utf8 _ bin,YES,,Language
+Timeframe,mediumtext,utf8 _ bin,YES,,Timeframe
+Abstract,longtext,utf8 _ bin,YES,,Abstract
+Createdby,tinytext,utf8 _ general _ ci,YES,,Record created by
+Updatedby,tinytext,utf8 _ general _ ci,YES,,Record updated by
+LastUpdate,datetime,,YES,,Last Update
+PaperType,varchar(45),utf8 _ general _ ci,YES,,Type of paper

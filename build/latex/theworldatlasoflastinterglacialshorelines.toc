@@ -1,0 +1,95 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}How to cite data}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}How to cite this document}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Funding}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}License}{3}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Technical data}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Database}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Interface}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Jupyter notebooks}{5}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Database tables}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Table: rsl}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Table: vertmeastech}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Table: hrzmeastech}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Table: countries}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Table: regions}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Table: MIS\_ages}{11}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Table: rsl\_ind}{11}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Table: sldatum}{12}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Table: references}{12}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Table: Useries\_Corals}{12}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Table: aar}{18}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Table: esr}{22}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Table: luminescence}{26}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Table: strat}{29}{section.3.14}%
+\contentsline {section}{\numberline {3.15}Table: other\_dating}{31}{section.3.15}%
+\contentsline {chapter}{\numberline {4}Database interface}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}RSL datapoint from stratigraphy}{34}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Interface versions}{34}{subsection.4.1.1}%
+\contentsline {chapter}{\numberline {5}RSL from stratigraphy}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}General information}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Elevation and paleo RSL}{39}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Vertical land movements}{41}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Age constraints}{42}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Quality}{43}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Record additional information}{44}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Metadata}{45}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Type of RSL indicator}{45}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Name of RSL indicator}{45}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Description of RSL indicator}{45}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Description of RWL}{45}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Description of IR}{46}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}Indicator reference(s)}{46}{subsection.6.1.5}%
+\contentsline {section}{\numberline {6.2}Geographic positioning}{46}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Type}{46}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Description}{46}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Typical accuracy}{46}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Sea level datum}{46}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Datum name}{47}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Datum description}{47}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Datum uncertainty}{47}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Reference(s)}{47}{subsection.6.3.4}%
+\contentsline {section}{\numberline {6.4}Elevation measurement}{47}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Measurement technique}{47}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Description}{47}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Typical accuracy}{47}{subsection.6.4.3}%
+\contentsline {chapter}{\numberline {7}General fields for dated samples}{49}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Analysis metadata}{49}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Geographic metedata}{50}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Samples dated with U\sphinxhyphen {}Series}{51}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Initial choice}{51}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Paleo Sea Level}{51}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Ecological metadata}{52}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Speleothem}{53}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Analytical details}{53}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Analytical data}{54}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Originally reported}{54}{section.8.7}%
+\contentsline {section}{\numberline {8.8}HU\sphinxhyphen {}1 spike correction}{55}{section.8.8}%
+\contentsline {section}{\numberline {8.9}Recalculated}{55}{section.8.9}%
+\contentsline {section}{\numberline {8.10}Age constraints}{56}{section.8.10}%
+\contentsline {chapter}{\numberline {9}Samples dated with AAR}{57}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Age}{57}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Detailed sample and analysis information}{57}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Reported Amino Acid D/L Values (THAA)}{58}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Reported Amino Acid D/L Values (FAA)}{59}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Calibration}{59}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Independent Age}{59}{section.9.6}%
+\contentsline {chapter}{\numberline {10}Samples dated with luminescence}{61}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Age}{61}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Dose estimation}{61}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Dose rates}{62}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Other details}{62}{section.10.4}%
+\contentsline {chapter}{\numberline {11}Samples dated with ESR}{63}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Age}{63}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Dose estimation}{63}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Dose rates}{64}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Other details}{65}{section.11.4}%
+\contentsline {chapter}{\numberline {12}Chronostratigraphic constraints}{67}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Description}{67}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Age}{67}{section.12.2}%
+\contentsline {chapter}{\numberline {13}Other age constraints}{69}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Description}{69}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Age}{69}{section.13.2}%
+\contentsline {chapter}{\numberline {14}Indices and tables}{71}{chapter.14}%

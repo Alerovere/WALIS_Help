@@ -1,0 +1,83 @@
+Field,Type,Collation,Null,Key,Comment
+LUM _ ID,int(11),,NO,PRI,WALIS LUM ID
+Public,varchar(45),utf8 _ general _ ci,YES,,Is this datapoint public?
+Lum _ Method,tinytext,utf8 _ general _ ci,YES,,Luminescence method
+IGSN,varchar(45),utf8 _ general _ ci,YES,,IGSN
+lum _ ref,longtext,utf8 _ general _ ci,YES,,Reference (s)
+Sample _ ID,varchar(45),utf8 _ general _ ci,YES,,Sample ID
+AnalysisID,varchar(45),utf8 _ general _ ci,YES,,Analysis ID
+ReportedID,varchar(45),utf8 _ general _ ci,YES,,Reported ID
+Lab _ name,mediumtext,utf8 _ general _ ci,YES,,Laboratory name
+Mineral _ type,varchar(45),utf8 _ general _ ci,YES,,Mineral type
+Grain _ size,varchar(45),utf8 _ general _ ci,YES,,Grain size
+AnalysisDate,datetime,,YES,,Date of analysis
+Accepted,varchar(45),utf8 _ general _ ci,YES,,Accepted?
+Reas _ rej,longtext,utf8 _ general _ ci,YES,,Reason for rejection
+Reported _ Latitude,varchar(45),utf8 _ general _ ci,YES,,Reported Latitude
+Reported _ Longitude,varchar(45),utf8 _ general _ ci,YES,,Reported Longitude
+Sample _ lat,varchar(45),utf8 _ general _ ci,YES,,Sample latitude (decimal degrees)
+Sample _ lon,varchar(45),utf8 _ general _ ci,YES,,Sample longitude (decimal degrees)
+Lat _ Lon _ Est,varchar(45),utf8 _ general _ ci,YES,,Are Lat/Long estimated?
+Original _ datum,varchar(45),utf8 _ general _ ci,YES,,Original elevation datum used
+Elev _ meas _ method,varchar(45),utf8 _ general _ ci,YES,,Elevation measurement method
+Sample _ elev,varchar(45),utf8 _ general _ ci,YES,,Reported elevation (m)
+Sample _ elev _ unc,varchar(45),utf8 _ general _ ci,YES,,Reported elevation uncertainty (m)
+Elev _ MSL,varchar(45),utf8 _ general _ ci,YES,,Elevation above MSL (m)
+Elev _ MSL _ unc,varchar(45),utf8 _ general _ ci,YES,,Elevation uncertainty used (m)
+Elev _ comments,longtext,utf8 _ general _ ci,YES,,Comments on elevation
+MISchoice _ limit,varchar(45),utf8 _ general _ ci,YES,,Age is Older/Equal/Younger than
+MISchoice,varchar(45),utf8 _ general _ ci,YES,,Marine Isotopic Stage
+Reported _ MIS,longtext,utf8 _ general _ ci,YES,,Comments/details on MIS designation or age
+Final _ age,varchar(45),utf8 _ general _ ci,YES,,Age (ka)
+Final _ age _ unc,varchar(45),utf8 _ general _ ci,YES,,Age uncertainty (ka)
+Aliquot size,varchar(45),utf8 _ general _ ci,YES,,Aliquot size
+ED _ meas _ protocol,longtext,utf8 _ general _ ci,YES,,Equivalent Dose measurement protocol
+Treatment,longtext,utf8 _ general _ ci,YES,,Treatment during measurement
+ED _ stat _ model,varchar(45),utf8 _ general _ ci,YES,,Statistical model for burial dose
+Machine _ type,longtext,utf8 _ general _ ci,YES,,Machine type
+Detection _ unit,longtext,utf8 _ general _ ci,YES,,Detection unit
+Stimulation _ unit,longtext,utf8 _ general _ ci,YES,,Stimulation unit
+Optical _ filters,longtext,utf8 _ general _ ci,YES,,Optical Filters used for Detection
+Nb _ aliquots _ sg _ run,mediumtext,utf8 _ general _ ci,YES,,Number of aliquots/ single grains run
+Nb _ aliquots _ sg _ used,mediumtext,utf8 _ general _ ci,YES,,Number of aliquots/ single grains used in sample
+Dose _ unc _ lev,varchar(45),utf8 _ general _ ci,YES,,Uncertainty level
+ED,varchar(45),utf8 _ general _ ci,YES,,Equivalent dose (Gy)
+ED _ unc,varchar(45),utf8 _ general _ ci,YES,,Equivalent dose uncertainty (Gy)
+OD _ val,varchar(45),utf8 _ general _ ci,YES,,Overdispersion value (%)
+OD _ val _ unc,varchar(45),utf8 _ general _ ci,YES,,Overdispersion value uncertainty (%)
+Depth _ of _ burial,varchar(45),utf8 _ general _ ci,YES,,Depth of burial (m)
+DR _ determination,longtext,utf8 _ general _ ci,YES,,Approach of dose rate dermination
+Dose _ rate _ unc _ type,varchar(45),utf8 _ general _ ci,YES,,Uncertainty levels
+U,varchar(45),utf8 _ general _ ci,YES,,Uranium content (ppm)
+U _ unc,varchar(45),utf8 _ general _ ci,YES,,Uranium content uncertainty (ppm)
+Th,varchar(45),utf8 _ general _ ci,YES,,Thorium content (ppm)
+Th _ unc,varchar(45),utf8 _ general _ ci,YES,,Thorium content uncertainty (ppm)
+K,varchar(45),utf8 _ general _ ci,YES,,Potassium content (%)
+K _ unc,varchar(45),utf8 _ general _ ci,YES,,Potassium content uncertainty (%)
+Rb,varchar(45),utf8 _ general _ ci,YES,,Rubidium content (ppm)
+Rb _ unc,varchar(45),utf8 _ general _ ci,YES,,Rubidium content uncertainty (ppm)
+Alpha _ rate _ val,varchar(45),utf8 _ general _ ci,YES,,Alpha dose rate (Gy/ka)
+Alpha _ rate _ unc,varchar(45),utf8 _ general _ ci,YES,,Alpha dose rate uncertainty (Gy/ka)
+Gamma _ rate _ val,varchar(45),utf8 _ general _ ci,YES,,Gamma dose rate (Gy/ka)
+Gamma _ rate _ unc,varchar(45),utf8 _ general _ ci,YES,,Gamma dose rate uncertainty (Gy/ka)
+Beta _ rate _ val,varchar(45),utf8 _ general _ ci,YES,,Beta dose rate (Gy/ka)
+Beta _ rate _ unc,varchar(45),utf8 _ general _ ci,YES,,Beta dose rate uncertainty (Gy/ka)
+Cosmic _ rate _ val,varchar(45),utf8 _ general _ ci,YES,,Cosmic dose rate (Gy/ka)
+Cosmic _ rate _ unc,varchar(45),utf8 _ general _ ci,YES,,Cosmic dose rate uncertainty (Gy/ka)
+Field _ water,varchar(45),utf8 _ general _ ci,YES,,Field water content (% of dry mass)
+Water _ cont _ det,longtext,utf8 _ general _ ci,YES,,Water content determination method
+Water _ cont _ val,varchar(45),utf8 _ general _ ci,YES,,Water Content used in Final Age Calculation (% of dry mass)
+Water _ cont _ unc,varchar(45),utf8 _ general _ ci,YES,,Water Content used in Final Age Calculation  uncertainty (% of dry mass)
+Atten _ fact,varchar(45),utf8 _ general _ ci,YES,,Alpha attenuation factor
+DR _ conv _ fact,varchar(45),utf8 _ general _ ci,YES,,Dose Rate conversion factors
+Total _ dose _ rate,varchar(45),utf8 _ general _ ci,YES,,Total dose rate (Gy/Ka)
+Total _ dose _ rate _ unc,varchar(45),utf8 _ general _ ci,YES,,Total dose rate uncertainty (Gy/ka)
+Fading _ corr,varchar(45),utf8 _ general _ ci,YES,,Was fading correction applied?
+Method _ fading,varchar(45),utf8 _ general _ ci,YES,,Method of fading correction
+g-value,varchar(45),utf8 _ general _ ci,YES,,g-value (% per decade)
+g-value _ unc,varchar(45),utf8 _ general _ ci,YES,,g-value (±1sigma) (% per decade)
+Notes,longtext,utf8 _ general _ ci,YES,,Comments
+Createdby,varchar(45),utf8 _ general _ ci,YES,,Record created by
+Updatedby,varchar(45),utf8 _ general _ ci,YES,,Record updated by
+LastUpdate,datetime,,YES,,Last Update
+coord,point,,YES,,MySQL coordinates
