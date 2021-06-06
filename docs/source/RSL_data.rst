@@ -17,7 +17,7 @@ General information
 .. note::
    In the interface, the combination of Site and Subsite is set as 'Unique key'. This means that if a user tries to insert an existing Site-Subsite combination, it will not be accepted as valid by the interface and the record will not be saved. The following message will appear
    
-   .. image:: /img/error_site_subsite.png
+   .. image:: /img/error_site_subsite.PNG
 	:width: 50%
 	:align: center
 
