@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pleistocene RSL &mdash; The World Atlas of Last Interglacial Shorelines 2.0 documentation</title><link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css\rtd_sphinx_search.min.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/js\rtd_sphinx_search.min.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Metadata" href="Metadata.html" />
+    <link rel="prev" title="Database tables" href="database.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> The World Atlas of Last Interglacial Shorelines
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="first.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tech_data.html">Technical data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="database.html">Database tables</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Pleistocene RSL</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#general-information">General information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#elevation-and-paleo-rsl">Elevation and paleo RSL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vertical-land-movements">Vertical land movements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#age-constraints">Age constraints</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quality">Quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#record-additional-information">Record additional information</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Metadata.html">Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Dated_samples.html">General fields for dated samples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Useries.html">Samples dated with U-Series</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AAR.html">Samples dated with AAR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Luminescence.html">Samples dated with luminescence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ESR.html">Samples dated with ESR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chronostratigraphy.html">Chronostratigraphic constraints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Other_age.html">Other age constraints</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">The World Atlas of Last Interglacial Shorelines</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Pleistocene RSL</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/RSL_data.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="pleistocene-rsl">
+<h1>Pleistocene RSL<a class="headerlink" href="#pleistocene-rsl" title="Permalink to this headline"></a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This section has been designed by A. Rovere and D. Ryan</p>
+</div>
+<p>This section describes the fields included in the ‘RSL proxies’ file/sheet, created from the ‘rsl’ mySQL table. In the interface, the fields below can be found under ‘RSL datapoint from stratigraphy’ page.</p>
+<div class="section" id="general-information">
+<h2>General information<a class="headerlink" href="#general-information" title="Permalink to this headline"></a></h2>
+<p><strong>Site name</strong> - Name of the site. This could be a local geographic name, or the name of the town/city where the site is located.</p>
+<p><strong>Subsite</strong> - Survey name or transect number assigned to the site. This may also include a sub-facies within the sea level sequence.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the interface, the combination of Site and Subsite is set as ‘Unique key’. This means that if a user tries to insert an existing Site-Subsite combination, it will not be accepted as valid by the interface and the record will not be saved. The following message will appear</p>
+<a class="reference internal image-reference" href="_images/error_site_subsite.PNG"><img alt="_images/error_site_subsite.PNG" class="align-center" src="_images/error_site_subsite.PNG" style="width: 50%;" /></a>
+</div>
+<p><strong>Nation</strong> - The nation where the site is located.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘countries’ table. No foreign keys are defined in the database. If the required nation is not listed in the interface, please leave a bug report.</p>
+</div>
+<p><strong>Region</strong> - The administrative region, province or administrative unit where the site is located.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘regions’ table. No foreign keys are defined in the database. If the required region/administrative unit is not listed in the interface, please leave a bug report.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Nations and Regions derived from a simplified version of this <a class="reference external" href="https://github.com/prograhammer/countries-regions-cities">database</a>, which includes data created by MaxMind, available from <a class="reference external" href="http://www.maxmind.com/">http://www.maxmind.com/</a>. Refer to these links for further use and/or redistribution</p>
+</div>
+<p><strong>Main reference</strong> - The main reference from which RSL information has been extracted. This is usually the reference describing the site and reporting measurement and dating details.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘references’ table. It is set as foreign key in the ‘rsl’ table.</p>
+</div>
+<p><strong>Additional References</strong> - Select further references describing the site. Ideally this field includes all the historical references reporting on the site.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The values for this field are selected from the ‘references’ table. The ID values are stored as comma-separated. No foreign keys are defined in the database.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The initial set of paleo-sea level references was derived from the works of <a class="reference external" href="https://doi.org/10.1016/j.earscirev.2014.01.007">Pedoja et al (2014)</a>, <a class="reference external" href="https://doi.org/10.1016/j.quascirev.2016.04.019">Hibbert et al (2016)</a>, and <a class="reference external" href="https://doi.org/10.1016/j.quaint.2005.07.009">Ferranti et al (2006)</a></p>
+</div>
+<p><strong>Latitude (decimal degrees)</strong> - Latitude of the site, in decimal degrees.</p>
+<p><strong>Longitude (decimal degrees)</strong> - Longitude of the site, in decimal degrees.</p>
+<p><strong>Horizontal Positioning Technique</strong> - Define the positioning technique used to establish the site Lat/Long coordinates. New positioning techniques can be added as necessary within the ‘Metadata -&gt; Geographic positioning’ menu.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘hrzpostech’ table. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>Is this a marine/terrestrial limiting record?</strong> - Indicate if the record inserted is: 1) marine or 2) terrestrial limiting, or 3) sea level indicator. The following fields will update accordingly. For a definition of marine/terrestrial limiting in MIS 5e, see <a class="reference external" href="https://doi.org/10.1016/j.earscirev.2016.06.006">Rovere et al (2016)</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the interface, if (marine or terrestrial) limiting point is selected, a message appears: <em>Marine or Terrestial limiting, no paleo RSL calculations are possible</em> Contextually, the field <em>Type of RSL indicator</em> is hidden and associated value = 0, that corresponds to marine or terrestrial limiting in the ‘rsl_ind’ table. Also the following fields are hidden: <em>Upper limit of modern analog (m)</em>,*Lower limit of modern analog (m)*, <em>Quantification of indicative meaning</em>,*Reference Water Level (m)*, <em>Indicative Range (m)</em>,*Paleo Relative Sea Level (m)*, <em>Paleo Relative Sea Level Uncertainty (m)</em>. If sea level index point is selected, all the fields above are shown and made mandatory.</p>
+</div>
+<p><strong>Type of RSL Indicator</strong> - Sea level indicator that was reported at the site. New sea level indicators can be added as necessary within the ‘Metadata -&gt; Type of RSL indicator’ menu.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘rsl_ind’ table. No foreign keys are defined in the database.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears only if ‘Sea Level indicator’ is selected in the field <em>‘Is this a marine/terrestrial limiting record?’</em></p>
+</div>
+<p><strong>Indicator description</strong> - Describe the indicator/limiting point and its site-specific properties.</p>
+</div>
+<div class="section" id="elevation-and-paleo-rsl">
+<h2>Elevation and paleo RSL<a class="headerlink" href="#elevation-and-paleo-rsl" title="Permalink to this headline"></a></h2>
+<p><strong>Upper limit of modern analog (m)</strong> - Elevation of the highest point at which the facies/landform occurs along the modern shoreline.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears only if ‘Sea Level indicator’ is selected in the field <em>‘Is this a marine/terrestrial limiting record?’</em></p>
+</div>
+<p><strong>Lower limit of modern analog (m)</strong> - Elevation of the lowest point at which the facies/landform occurs along the modern shoreline.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears only if ‘Sea Level indicator’ is selected in the field <em>‘Is this a marine/terrestrial limiting record?’</em></p>
+</div>
+<p><strong>Quantification of Indicative meaning</strong> - Indicate how the indicative meaning has been quantified. Two selections are possible:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>IMCalc - Using the tool developed by <a class="reference external" href="https://doi.org/10.1186/s40965-019-0069-8">Lorscheid and Rovere (2019)</a></p></li>
+<li><p>Modern analog data - From modern analog data available for the study area. See example in <a class="reference external" href="https://doi.org/10.1016/j.earscirev.2016.06.006">Rovere et al (2016)</a></p></li>
+</ol>
+</div></blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>IMCalc is open access, runs on Java and can be downloaded from <a class="reference external" href="https://sourceforge.net/projects/imcalc/">SourceForge</a></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears only if ‘Sea Level indicator’ is selected in the field <em>‘Is this a marine/terrestrial limiting record?’</em></p>
+</div>
+<p><strong>Sea level datum</strong> - Vertical datum to which the elevations are referred.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘sldatum’ table. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>Elevation measurement technique</strong> - Method employed to measure elevations.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘vertmeastech’ table. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>Do you want to insert upper and lower elevation limits?</strong> - Select ‘Yes’ if the sea level indicator was measured as two-points elevation. ‘No’ to insert only a single point elevation. See illustration below.</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="_images/Limits.jpg"><img alt="_images/Limits.jpg" src="_images/Limits.jpg" style="width: 65%;" /></a>
+<p class="caption"><span class="caption-text">Difference between one-point versus two-point elevation</span><a class="headerlink" href="#id6" title="Permalink to this image"></a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the interface, if ‘Yes’ is selected, the fields <em>Upper elevation of indicator (m)</em>, <em>Lower elevation of indicator (m)</em> and <em>Upper/Lower elevation measurement error (m)</em>  appear. The fields <em>RSL indicator elevation (m)</em> and <em>RSL indicator elevation error (m)</em> are disabled and calculated automatically averaging the values above. Every time the answer is changed, the content of the fields <em>RSL indicator elevation (m)</em> and <em>RSL indicator elevation error (m)</em> is deleted.</p>
+</div>
+<p><strong>Lower elevation of indicator</strong> - The lower measured elevation of the sea level indicator.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears and is mandatory only if ‘Yes’ is selected in the field <em>‘Do you want to insert upper and lower elevation limits?’</em></p>
+</div>
+<p><strong>Upper elevation of indicator</strong> - The upper measured elevation of the sea level indicator.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears and is mandatory only if ‘Yes’ is selected in the field <em>‘Do you want to insert upper and lower elevation limits?’</em></p>
+</div>
+<p><strong>Upper/Lower elevation measurement error (m)</strong> - Insert here the elevation measurement error for the Upper and Lower elevation measurements. Insert ±1-sigma values.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears and is mandatory only if ‘Yes’ is selected in the field <em>‘Do you want to insert upper and lower elevation limits?’</em></p>
+</div>
+<p><strong>RSL indicator elevation (m)</strong> - Elevation of the RSL indicator, in meters and with up to two decimal digits.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the interface, this value is auto-calculated if upper and lower elevation limits are specified above.</p>
+</div>
+<p><strong>RSL indicator elevation error (m)</strong> - Elevation error associated with the elevation measurement, in meters and with up to two decimal digits. For GPS and similar instrumental measurement, use ±1 sigma error levels.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the interface, this value is auto-calculated if upper and lower elevation limits are specified above.</p>
+</div>
+<p><strong>Notes on elevation</strong> - Insert comments on how elevation data has been obtained / treated.</p>
+<p><strong>Reference Water Level (m)</strong> - The reference water level is calculated from the Upper and lower limits of modern analog inserted above, from the formulas in in <a class="reference external" href="https://doi.org/10.1016/j.earscirev.2016.06.006">Rovere et al (2016)</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears and is mandatory only if ‘Sea Level indicator’ is selected in the field <em>‘Is this a marine/terrestrial limiting record?’</em></p>
+</div>
+<p><strong>Indicative Range (m)</strong> - The indicative range is calculated from the Upper and lower limits of modern analog inserted above, from the formulas in in <a class="reference external" href="https://doi.org/10.1016/j.earscirev.2016.06.006">Rovere et al (2016)</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears and is mandatory   only if ‘Sea Level indicator’ is selected in the field <em>‘Is this a marine/terrestrial limiting record?’</em></p>
+</div>
+<p><strong>Paleo Relative Sea Level (m)</strong> - Paleo Relative sea level is calculated from the elevation and reference water level, from the formulas in in <a class="reference external" href="https://doi.org/10.1016/j.earscirev.2016.06.006">Rovere et al (2016)</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears and is auto-calculated only if ‘Sea Level indicator’ is selected in the field <em>‘Is this a marine/terrestrial limiting record?’</em></p>
+</div>
+<p><strong>Paleo Relative Sea Level Uncertainty (m)</strong> - Paleo Relative sea level uncertainty is calculated from the elevation error and indicative range, from the formulas in in <a class="reference external" href="https://doi.org/10.1016/j.earscirev.2016.06.006">Rovere et al (2016)</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>In the interface, this field appears and is auto-calculated only if ‘Sea Level indicator’ is selected in the field <em>‘Is this a marine/terrestrial limiting record?’</em></p>
+</div>
+</div>
+<div class="section" id="vertical-land-movements">
+<h2>Vertical land movements<a class="headerlink" href="#vertical-land-movements" title="Permalink to this headline"></a></h2>
+<p><strong>Is data on vertical land movements (independent from the sea level record) available?</strong> - Select ‘Yes’ or ‘No’ depending on the available data.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Compile data on vertical land movements only if <em>independent</em> vertical land motions are available for the site. Tectonic rates characterized by circularity (e.g., derived calculating the departure from Last Interglacial global mean sea level) should not be inserted</p>
+</div>
+<p><strong>Tectonic category</strong> - Three values are available: ‘Stable’, ‘Uplifting’ and ‘Subsidence’.</p>
+<p><strong>Comments on tectonic category</strong> - Comments on the selection of the tectonic category.</p>
+<p><strong>Published VLM rate (m/ky)</strong> - Vertical land motion rate as originally reported.</p>
+<p><strong>Published VLM rate uncertainty (m/ky)</strong> - Vertical land motion uncertainty as originally reported. If not reported, insert N/A.</p>
+<p><strong>Interpreted VLM rate (m/ky)</strong> - Vertical land motion rate as re-interpreted by the reviewer.</p>
+<p><strong>Interpreted VLM rate uncertainty (m/ky)</strong> - Vertical land motion uncertainty, as re-interpreted by the reviewer. If not reported, insert N/A.</p>
+<p><strong>Comments on VLM rates</strong> - Description of how the VLM rates reported have been calculated or re-calculated.</p>
+</div>
+<div class="section" id="age-constraints">
+<h2>Age constraints<a class="headerlink" href="#age-constraints" title="Permalink to this headline"></a></h2>
+<p><strong>Age attribution</strong> - Insert in this field one or more methods of age attribution. In the database, ‘Age attribution’ is coded in the following way:</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Value</p></th>
+<th class="head"><p>Associated dating technique</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>1</p></th>
+<td><p>U-Series</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>2</p></th>
+<td><p>Amino Acid Racemization</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>3</p></th>
+<td><p>Luminescence</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>4</p></th>
+<td><p>Electron Spin Resonance</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>5</p></th>
+<td><p>Stratigraphic context/age</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>6</p></th>
+<td><p>Other</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>At least one age constraint should be associated with the datapoint</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the interface, once an age attribution method is selected, fields related to it appear and are made mandatory.</p>
+</div>
+<p><strong>U-Series constraint</strong> - Indicate if the RSL datapoint is ‘Equal to’, ‘Older than’, ‘Younger than’ the U-Series age constraint(s) inserted below.</p>
+<p><strong>U-Series age IDs</strong> - Select the U-Series age IDs. The list is created from all the ages present in the ‘Useries_Corals’ table.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>‘Useries_Corals’ contains <strong>all</strong> U-Series ages, on corals, mollusks and speleothems. The table name is a legacy from an older database version.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The values for this field are selected from the ‘Useries_Corals’ table. The ID values are stored as comma-separated. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>AAR constraint</strong> - Indicate if the RSL datapoint is is ‘Equal to’, ‘Older than’, ‘Younger than’ the AAR age constraint(s) inserted below.</p>
+<p><strong>AAR age IDs</strong> - Select the AAR age IDs. The list is created from all the ages present in the ‘aar’ table.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The values for this field are selected from the ‘aar’ table. The ID values are stored as comma-separated. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>Luminescence constraint</strong> - Indicate if the RSL datapoint is is ‘Equal to’, ‘Older than’, ‘Younger than’ the luminescence age constraint(s) inserted below.</p>
+<p><strong>Luminescence age IDs</strong> - Select the luminescence age IDs. The list is created from all the ages present in the ‘luminescence’ table.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The values for this field are selected from the ‘luminescence’ table. The ID values are stored as comma-separated. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>ESR constraint</strong> - Indicate if the RSL datapoint is is ‘Equal to’, ‘Older than’, ‘Younger than’ the ESR age constraint(s) inserted below.</p>
+<p><strong>ESR age IDs</strong> - Select the ESR age IDs. The list is created from all the ages present in the ‘esr’ table.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The values for this field are selected from the ‘esr’ table. The ID values are stored as comma-separated. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>Stratigraphic constraint</strong> - Indicate if the RSL datapoint is is ‘Equal to’, ‘Older than’, ‘Younger than’ the stratigraphic age constraint(s) inserted below.</p>
+<p><strong>Stratigraphic age IDs</strong> - Select the stratigraphic age IDs. The list is created from all the ages present in the ‘strat’ table.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The values for this field are selected from the ‘strat’ table. The ID values are stored as comma-separated. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>Other age constraint</strong> - Indicate if the RSL datapoint is is ‘Equal to’, ‘Older than’, ‘Younger than’ the other age age constraint(s) inserted below.</p>
+<p><strong>Other age IDs</strong> - Select the stratigraphic age IDs. The list is created from all the ages present in the ‘other_dating’ table.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The values for this field are selected from the ‘other_dating’ table. The ID values are stored as comma-separated. No foreign keys are defined in the database.</p>
+</div>
+</div>
+<div class="section" id="quality">
+<h2>Quality<a class="headerlink" href="#quality" title="Permalink to this headline"></a></h2>
+<p><strong>Quality of RSL data</strong> - Rate the quality of the record for which concents RSL data, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found below:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 91%" />
+<col style="width: 9%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Description</p></td>
+<td><p>Quality rating</p></td>
+</tr>
+<tr class="row-even"><td><p>Elevation precisely measured, referred to a clear datum and RSL indicator with a very narrow indicative range. Final RSL uncertainty is submetric.</p></td>
+<td><p>5 (excellent)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elevation precisely measured, referred to a clear datum and RSL indicator with a narrow indicative range. Final RSL uncertainty is between one and two meters.</p></td>
+<td><p>4 (good)</p></td>
+</tr>
+<tr class="row-even"><td><p>Uncertainties in elevation, datum or indicative range sum up to a value between two and three meters.</p></td>
+<td><p>3 (average)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Final paleo RSL uncertainty is higher than three meters</p></td>
+<td><p>2 (poor)</p></td>
+</tr>
+<tr class="row-even"><td><p>Elevation and / or indicative range must be regarded as very uncertain due to poor measurement / description / RSL indicator quality</p></td>
+<td><p>1 (very poor)</p></td>
+</tr>
+<tr class="row-odd"><td><p>There is not enough information to accept the record as a valid RSL indicator (e.g. marine or terrestial limiting)</p></td>
+<td><p>0 (rejected)</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Quality of age information</strong> - Rate the quality of the record for which concerns age data, on a 1 (poor) to 5 (excellent) scale. If the record is rejected, select 0 stars and insert the reason for rejection below. A guide on the evaluation of quality can be found below:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 89%" />
+<col style="width: 11%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Description</p></td>
+<td><p>Quality rating</p></td>
+</tr>
+<tr class="row-even"><td><p>Very narrow age range, e.g. few ka, that allow the attribution to a specific timing within a substage of MIS 5 (e.g. 117±2 ka)</p></td>
+<td><p>5 (excellent)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Narrow age range, allowing the attribution to a specific substage of MIS 5 (e.g., MIS 5e)</p></td>
+<td><p>4 (good)</p></td>
+</tr>
+<tr class="row-even"><td><p>The RSL data point can be attributed only to a generic interglacial (e.g. MIS 5)</p></td>
+<td><p>3 (average)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Only partial information or minimum age constraints are available</p></td>
+<td><p>2 (poor)</p></td>
+</tr>
+<tr class="row-even"><td><p>Different age constraints point to different interglacials</p></td>
+<td><p>1 (very poor)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Not enough information to attribute the RSL data point to any pleistocene interglacial.</p></td>
+<td><p>0 (rejected)</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Quality notes</strong> - Insert notes related to the quality choices. Deviations from the standard tables above should be addressed and justified.</p>
+</div>
+<div class="section" id="record-additional-information">
+<h2>Record additional information<a class="headerlink" href="#record-additional-information" title="Permalink to this headline"></a></h2>
+<p><strong>Record created by</strong> - User who created the record.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘sec_usersusers’ table. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>Record updated by</strong> - User who updated the record.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The value for this field is selected from the ‘sec_usersusers’ table. No foreign keys are defined in the database.</p>
+</div>
+<p><strong>Last Update</strong> - Date of last update.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="database.html" class="btn btn-neutral float-left" title="Database tables" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Metadata.html" class="btn btn-neutral float-right" title="Metadata" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright CC-BY-SA 4.0.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
