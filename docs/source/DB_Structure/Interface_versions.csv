@@ -1,64 +1,35 @@
 ﻿Version,Changes,Date
-,,
+1.7.3,"Minor fixes to the holocene database	",10/8/2021 14:47
+1.7.2,"Minor fixes to the holocene database	",7/28/2021 14:17
+1.7.1,"Insertion of U-Series dating for oolites	","06/05/21  11:35		"
 1.7.0,First inclusion of Holocene data,02/16/21  18:19
-,,
 1.6.3,Small updates to interface,11/09/20  15:23
-,,
 1.6.2,Shift to AWS hosting,05/09/20  15:07
-,,
 1.6.1,General improvements,04/23/20  16:26
-,,
 1.6.0,Inserted python download functions,04/15/20  13:54
-,,
 1.5.6,New security system with logged users,04/15/20  12:32
-,,
 1.5.4,Minor updates and bug fixes,04/09/20  14:20
-,,
 1.5.3,Minor updates and bug fixes,03/16/20  10:24
-,,
 1.5.2,Minor updates and bug fixes,02/29/20  22:56
-,,
 1.5.1,Revised maps,02/03/20  15:20
-,,
 1.5.0,Heavily revised table reports and maps,01/26/20  13:09
-,,
 1.4.5,Added map of user sites,01/21/20  09:36
-,,
 1.4.4,Fixed bugs on different tables and started to improve help functions,01/20/20  17:21
-,,
 1.4.3,Changes in Luminescence and updates of search function,01/15/20  16:01
-,,
 1.4.2,Slight changes to ESR and Chronostratigrapy,01/08/20  11:27
-,,
 1.4.0,"Changes in database structure for ESR, AAR and LUM. Other minor changes on the layout.",10/18/19  11:53
-,,
 1.3.0,Minor style and messages updates,09/11/19  17:00
-,,
 1.2.7,Minor style and messages updates,09/10/19  21:52
-,,
 1.2.6,Minor app and database bug fixes,08/19/19  19:25
-,,
 1.2.5,Bug fixes and updates,07/28/19  14:58
-,,
 1.2.4,Bug fixes and updates,07/28/19  11:46
-,,
 1.2.3,Bug fixes and updates,07/24/19  11:38
-,,
 1.2.2,Bug fixes and updates,07/10/19  18:37
-,,
 1.2.1,Bug fixes and updates,06/19/19  11:03
-,,
 1.2.0,Bug fixes and updates,06/06/19  15:28
-,,
 1.1.5,First online version,06/03/19  19:59
-,,
 1.1.4,Small fixes ,05/26/19  13:36
-,,
 1.1.3,Small fixes ,05/20/19  16:12
-,,
 1.1.2,Built menus and grids,05/19/19  11:46
-,,
 1.1.1,Built forms,05/04/19  15:45
-,,
 1.0.0,Initial beta,12/18/18  17:58
-,,
