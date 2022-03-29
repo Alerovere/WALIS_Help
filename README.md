@@ -11,4 +11,4 @@ More information on the atlas is available [here](https://alerovere.github.io/WA
 This material is part of a project that has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (Grant agreement No. [ERC-StG-802414](https://cordis.europa.eu/project/id/802414/it))
 
 ### Versions
-> Rovere, Alessio, Ryan, Deirdre, Murray-Wallace, Colin, Simms, Alexander, Vacchi, Matteo, Dutton, Andrea, Lorscheid, Thomas, Chutcharavan, Peter, Brill, Dominik, Bartz, Melanie, Jankowski, Nathan, Mueller, Daniela, Cohen, Kim, & Gowan, Evan. (2020). Descriptions of database fields for the World Atlas of Last Interglacial Shorelines (WALIS) (1,0). Zenodo. https://doi.org/10.5281/zenodo.3961544
+Rovere, Alessio, Ryan, Deirdre, Murray-Wallace, Colin, Simms, Alexander, Vacchi, Matteo, Dutton, Andrea, Lorscheid, Thomas, Chutcharavan, Peter, Brill, Dominik, Bartz, Melanie, Jankowski, Nathan, Mueller, Daniela, Cohen, Kim, & Gowan, Evan. (2020). Documentation of the World Atlas of Last Interglacial Shorelines (WALIS) (v1.0). Zenodo. https://doi.org/10.5281/zenodo.3961544
