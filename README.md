@@ -9,4 +9,4 @@ More information on the atlas is available [here](https://alerovere.github.io/WA
 
 
 ## Funding
-This material is part of a project that has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (Grant agreement No. ERC-StG-802414)
+This material is part of a project that has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (Grant agreement No. [ERC-StG-802414](https://cordis.europa.eu/project/id/802414/it))
