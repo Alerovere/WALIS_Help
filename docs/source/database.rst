@@ -10,9 +10,9 @@ In the following section, each database table contained in WALIS is described. S
 5. Key: primary (PRI) or foreign (MUL) key
 6. Comment: label within the PhP interface
 
-*************
-Table: rsl
-*************
+***************************************
+Table: rsl (Relative Sea Level)
+***************************************
 This table contains data and metadata related to paleo relative sea level datapoints from stratigraphic or geomorphic sea level indicators.
 
 .. csv-table::
