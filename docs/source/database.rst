@@ -6,12 +6,12 @@ In the following section, each database table contained in WALIS is described. S
 1. Field: Column name as it appears in the database
 2. Type: Type of data accepted by the mySQL database 
 3. Collation: Econding
-4. Null: are null values are allowed?
+4. Null: are null values allowed?
 5. Key: primary (PRI) or foreign (MUL) key
 6. Comment: label within the PhP interface
 
 ***************************************
-Table: rsl (Relative Sea Level)
+Table: rsl (RSL stratigraphy)
 ***************************************
 This table contains data and metadata related to paleo relative sea level datapoints from stratigraphic or geomorphic sea level indicators.
 
@@ -20,9 +20,9 @@ This table contains data and metadata related to paleo relative sea level datapo
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************
-Table: vertmeastech
-**********************
+******************************************************************
+Table: vertmeastech (Elevation measurement techniques)
+******************************************************************
 This table contains elevation measurement techniques used in WALIS.
 
 .. csv-table::
@@ -30,9 +30,9 @@ This table contains elevation measurement techniques used in WALIS.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************
-Table: hrzmeastech
-**********************
+******************************************************************
+Table: hrzmeastech (Geographic positioning techniques
+******************************************************************
 This table contains geographic positioning techniques used in WALIS.
 
 .. csv-table::
@@ -40,9 +40,9 @@ This table contains geographic positioning techniques used in WALIS.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************
-Table: countries
-**********************
+********************************************
+Table: countries (Country)
+********************************************
 This table contains the countries selectable in the interface.
 
 .. csv-table::
@@ -50,9 +50,9 @@ This table contains the countries selectable in the interface.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************
-Table: regions
-**********************
+********************************************
+Table: regions (Region)
+********************************************
 This table contains the administrative regions selectable in the interface.
 
 .. csv-table::
@@ -60,9 +60,9 @@ This table contains the administrative regions selectable in the interface.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************
-Table: MIS_ages
-**********************
+********************************************
+Table: MIS_ages (MIS Ages)
+********************************************
 This table contains the Marine Isotopic Stages selectable in the interface.
 
 .. csv-table::
@@ -70,9 +70,9 @@ This table contains the Marine Isotopic Stages selectable in the interface.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************
-Table: rsl_ind
-**********************
+********************************************
+Table: rsl_ind (RSL index point types)
+********************************************
 This table contains the types of RSL indicators inserted in WALIS.
 
 .. csv-table::
@@ -80,9 +80,9 @@ This table contains the types of RSL indicators inserted in WALIS.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************
-Table: sldatum
-**********************
+********************************************
+Table: sldatum (Vertical datums)
+********************************************
 This table contains the sea level datums inserted in WALIS.
 
 .. csv-table::
@@ -90,9 +90,9 @@ This table contains the sea level datums inserted in WALIS.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************
-Table: references
-**********************
+********************************************
+Table: references (References)
+********************************************
 This table contains the references inserted in WALIS.
 
 .. csv-table::
@@ -100,9 +100,9 @@ This table contains the references inserted in WALIS.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************   
-Table: Useries_Corals
-**********************
+********************************************   
+Table: Useries_Corals (U-Series)
+********************************************
 This table contains samples of corals, mollusks or speleothems dated with U-Series techniques.
 
 .. csv-table::
@@ -110,9 +110,9 @@ This table contains samples of corals, mollusks or speleothems dated with U-Seri
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************   
-Table: aar
-**********************
+********************************************   
+Table: aar (Amino Acid Racemization
+********************************************
 This table contains samples dated with Amino Acid Racemization.
 
 .. csv-table::
@@ -120,9 +120,9 @@ This table contains samples dated with Amino Acid Racemization.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************  
-Table: esr
-**********************
+********************************************  
+Table: esr (Electron Spin Resonance)
+********************************************
 This table contains samples dated with Electron Spin Resonance.
 
 .. csv-table::
@@ -130,9 +130,9 @@ This table contains samples dated with Electron Spin Resonance.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************   
-Table: luminescence
-**********************
+********************************************   
+Table: luminescence (Luminescence)
+********************************************
 This table contains samples dated with luminescence techniques.
 
 .. csv-table::
@@ -140,9 +140,9 @@ This table contains samples dated with luminescence techniques.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
 
-**********************   
-Table: strat
-**********************
+********************************************   
+Table: strat (Chronostratigraphy)
+********************************************
 This table contains chronostratigraphic age constraints.
 
 .. csv-table::
@@ -150,9 +150,9 @@ This table contains chronostratigraphic age constraints.
    :widths: 20,15,25,15,10,20
    :header-rows: 1
    
-**********************
-Table: other_dating
-**********************
+********************************************
+Table: other_dating (Other)
+********************************************
 This table contains samples dated with age techniques not detailed in WALIS.
 
 .. csv-table::
